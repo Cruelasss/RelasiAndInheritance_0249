@@ -31,6 +31,6 @@ class dokter{
     {
         cout << "Dokter \"" << nama << "\" tidak ada\n";
     }
-        void tambahDokter(dokter*);
-        void cetakDokter();
+        void tambahPasien(pasien*);
+        void cetakPasien();
 };
