@@ -19,3 +19,18 @@ class pasien{
         void cetakDokter();
 };
 
+class dokter{
+    public:
+    string nama;
+     vector<dokter*> daftar_dokter;
+    dokter(string pNama) :nama(pNama)
+    {
+        cout << "Dokter \"" << nama << "\" ada\n";
+    }
+    ~dokter()
+    {
+        cout << "Dokter \"" << nama << "\" tidak ada\n";
+    }
+        void tambahDokter(dokter*);
+        void cetakDokter();
+};
